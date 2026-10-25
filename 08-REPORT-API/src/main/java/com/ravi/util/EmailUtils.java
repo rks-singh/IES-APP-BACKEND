@@ -26,7 +26,7 @@ public class EmailUtils {
 			// used to set details for message object.
 			MimeMessageHelper helper = new MimeMessageHelper(message,true);
 
-			helper.setTo("rks884088@gmail.com");
+			helper.setTo("");
 			helper.setSubject("-- Your Report --");
 			helper.setText("<h2> Please Download your Report </h2>", true);
 			helper.addAttachment(file.getName(), file);
